@@ -1,3 +1,6 @@
+# DEPENDÊNCIAS
+O projeto roda e é iniciado a partir de uma aplicação Docker, portanto, é necessário ter instalado na máquina a versão mais recente do Docker, e também, o docker-compose
+
 # EXECUÇÃO DO PROJETO
 O projeto foi containerizado com o docker, usando um banco de dados postgres e uma aplicação python.
 
