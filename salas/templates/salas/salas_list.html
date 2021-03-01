@@ -1,0 +1,8 @@
+<h1>Salas</h1>
+<ul>
+{% for sala in object_list %}
+    <li>{{ sala.nome }} - {{ sala.lotacao }}</li>
+{% empty %}
+    <h3>Nenhuma Sala cadastrada!</h3>
+{% endfor %}
+</ul>
